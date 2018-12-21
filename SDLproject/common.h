@@ -1,0 +1,11 @@
+#include "SDL.h"
+#include "SDL_image.h"
+#include "stdlib.h"
+#include "stdio.h"
+#include "string.h"
+#include "math.h"
+#include "ctype.h"
+#include "defs.h"
+#include "structs.h"
+#include <string>
+#pragma once
