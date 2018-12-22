@@ -10,21 +10,32 @@ typedef struct
 	SDL_Window *window;
 	Delegate delegate;
 	int keyboard[MAX_KEYBOARD_KEYS];
-	int up;
+	/*int up;
 	int down;
 	int right;
 	int left;
 	int fire;
-	int acc;
+	int acc;*/
 } App;
+
+struct Entity
+{
+	float x;
+	float y;
+	float dx;
+	float dy;
+	int w;
+	int h;
+	int health;
+	int reload;
+	SDL_Texture* texture;
+	SDL_Surface* surface;
+	Entity *next;
+	int side;
+};
 
 typedef struct
 {
-	int x;
-	int y;
-	int dx;
-	int dy;
-	int health;
-	SDL_Texture* texture;
-	SDL_Surface* surface;
-} Entity;
+	Entity fighterHead, *fighterTail;
+	Entity bulletHead, *bulletTail;
+} Stage;

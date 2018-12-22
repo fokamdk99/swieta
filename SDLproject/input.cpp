@@ -2,6 +2,11 @@
 
 void doKeyUp(SDL_KeyboardEvent *event)
 {
+	if (event->repeat == 0 && event->keysym.scancode < MAX_KEYBOARD_KEYS)
+	{
+		app.keyboard[event->keysym.scancode] = 0;
+	}
+	/*
 	if (event->repeat == 0)
 	{
 		if (event->keysym.scancode == SDL_SCANCODE_UP)
@@ -33,11 +38,16 @@ void doKeyUp(SDL_KeyboardEvent *event)
 		{
 			app.acc = 0;
 		}
-	}
+	}*/
 }
 
 void doKeyDown(SDL_KeyboardEvent *event)
 {
+	if (event->repeat == 0 && event->keysym.scancode < MAX_KEYBOARD_KEYS)
+	{
+		app.keyboard[event->keysym.scancode] = 1;
+	}
+	/*
 	if (event->repeat == 0)
 	{
 		if (event->keysym.scancode == SDL_SCANCODE_UP)
@@ -70,6 +80,7 @@ void doKeyDown(SDL_KeyboardEvent *event)
 			app.acc = 1;
 		}
 	}
+	*/
 }
 
 void doInput(void)

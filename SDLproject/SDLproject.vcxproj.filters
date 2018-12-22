@@ -27,6 +27,12 @@
     <ClCompile Include="init.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
+    <ClCompile Include="stage.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="defs.h">
@@ -48,6 +54,12 @@
       <Filter>Pliki źródłowe</Filter>
     </ClInclude>
     <ClInclude Include="common.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="stage.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
       <Filter>Pliki źródłowe</Filter>
     </ClInclude>
   </ItemGroup>

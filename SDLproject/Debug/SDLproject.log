@@ -1,2 +1,10 @@
-﻿  Źródło.cpp
+﻿  stage.cpp
+c:\sdl\sdl2\sdlproject\stage.cpp(189): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+c:\sdl\sdl2\sdlproject\stage.cpp(195): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+c:\sdl\sdl2\sdlproject\stage.cpp(196): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+c:\sdl\sdl2\sdlproject\stage.cpp(292): warning C4244: "argument": konwersja z "float" do "int", możliwa utrata danych
+c:\sdl\sdl2\sdlproject\stage.cpp(301): warning C4244: "argument": konwersja z "float" do "int", możliwa utrata danych
+c:\sdl\sdl2\sdlproject\stage.cpp(305): warning C4244: "argument": konwersja z "float" do "int", możliwa utrata danych
+c:\sdl\sdl2\sdlproject\stage.cpp(315): warning C4244: "argument": konwersja z "float" do "int", możliwa utrata danych
+c:\sdl\sdl2\sdlproject\stage.cpp(325): warning C4244: "argument": konwersja z "float" do "int", możliwa utrata danych
   SDLproject.vcxproj -> C:\SDL\SDL2\SDLproject\Debug\SDLproject.exe
